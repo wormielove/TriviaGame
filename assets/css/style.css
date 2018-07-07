@@ -1,0 +1,95 @@
+container {
+width: 90%;
+margin: auto;
+align-content: center;
+/* background-image: url("assets/images/liberty.jpg"); */
+}
+
+#frame {
+width: 100%;
+align-content: center;
+text-align: center;  
+background-color: rgb(229, 247, 248);
+margin: 2%;
+padding: 2%;
+}
+
+h1 {
+width: 960px;
+}
+
+#time {
+color: rgb(36, 36, 105);
+font-size: x-large;
+}
+
+#time2 {
+color: rgb(36, 36, 105);
+font-size: x-large;  
+}
+
+#noTimeLeft {
+color: rgb(141, 21, 21);
+font-size: xx-large;
+}
+
+#liberty {
+margin-top: 10px;
+float: left;
+max-height: 800px;
+backdrop-filter: opacity(80%);
+}
+
+#question-column {
+float: left;
+}
+
+p {
+float: clear;
+color: rgb(36, 36, 105);
+font-size: larger;
+}
+
+#title {
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: white;
+margin-right: 1.5%;
+margin-left: 1.5%;
+padding: 2%;
+align-content: center;
+color: rgb(112, 108, 146);
+}
+
+#stars {
+margin-right: 1.5%;
+margin-left: 1.5%;
+}
+
+#red {
+background-color: rgb(141, 21, 21);
+align-content: center;
+margin-left: 1.5%;
+margin-right: 2%;
+width: 97%;
+height: 25px;
+}
+
+.form-check-label, .answers {
+color: rgb(36, 36, 105);
+font-size: larger;
+}
+
+#submit {
+background-color: white;
+color: rgb(141, 21, 21);
+border-color: rgb(36, 36, 105);
+}
+
+#bottom-row {
+background-color: white;
+/* margin-left: 1.5%;
+margin-right: 3%; */
+height: 30px;
+width: 100%;
+}
+
