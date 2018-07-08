@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div id="frame" class=container>
+        <div id="title" class=row>
+            <h1>Not-So-Trivial U.S. History</h1>
+        </div>
+        <div id="red" class=row></div>
+        <div id="stars" class=row>
+            <img src="assets/images/stars2.jpg" alt="stars" width=100% height=30%>
+            <br>
+            <hr>
+            <div id="liberty" class=col-md-6>
+                <img src="assets/images/liberty3.png" alt="liberty" width=110% height=100%>
+            </div>
+            <div id="question-column" class=col-md-6>
+                <br>
+                <div id=time2>You have: <span id="time"></span> seconds!</div>
+                <br>
+                <div id=noTimeLeft></div>
+                <hr>
+                <p>How many presidents were from Virginia?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question1" question-number="1" type="radio" name="pfv" id="pfv1" value="1">
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question1" question-number="1" type="radio" name="pfv" id="pfv1" value="12">
+                    <label class="form-check-label" for="inlineRadio2">12</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question1" question-number="1" type="radio" name="pfv" id="pfv1" value="8">
+                    <label class="form-check-label" for="inlineRadio1">8</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question1" question-number="1" type="radio" name="pfv" id="pfv1" value="2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <hr>
+                <br>
+
+                <p>How many people signed the Declaration of Independence?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question2" question-number="2" type="radio" name="dcl-ind" id="dcl-ind1" value="24">
+                    <label class="form-check-label" for="inlineRadio1">24</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question2" question-number="2" type="radio" name="dcl-ind" id="dcl-ind2" value="56">
+                    <label class="form-check-label" for="inlineRadio2">56</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question2" question-number="2" type="radio" name="dcl-ind" id="dcl-ind3" value="36">
+                    <label class="form-check-label" for="inlineRadio1">36</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question2" question-number="2" type="radio" name="dcl-ind" id="dcl-ind4" value="52">
+                    <label class="form-check-label" for="inlineRadio2">52</label>
+                </div>
+                <hr>
+                <br>
+
+                <p>Where was the Constituational Convention held?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question3" question-number="3" type="radio" name="ccvh" id="ccvh1" value="Richmond, VA">
+                    <label class="form-check-label" for="inlineRadio1">Richmond, VA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question3" question-number="3" type="radio" name="ccvh" id="ccvh2" value="New York, NY">
+                    <label class="form-check-label" for="inlineRadio2">New York, NY</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question3" question-number="3" type="radio" name="ccvh" id="ccvh3" value="Philadelphia, PA">
+                    <label class="form-check-label" for="inlineRadio1">Philadelphia, PA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question3" question-number="3" type="radio" name="ccvh" id="ccvh4" value="Jamestown, VA">
+                    <label class="form-check-label" for="inlineRadio2">Jamestown, VA</label>
+                </div>
+                <hr>
+                <br>
+
+                <p>Which was the last state to join the Union?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question4" question-number="4" type="radio" name="last-join" id="last-join1" value="Alaska">
+                    <label class="form-check-label" for="inlineRadio1">Alaska</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question4" question-number="4" type="radio" name="last-join" id="last-join2" value="Washington">
+                    <label class="form-check-label" for="inlineRadio2">Washington</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question4" question-number="4" type="radio" name="last-join" id="last-join3" value="Oregon">
+                    <label class="form-check-label" for="inlineRadio1">Oregon</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question4" question-number="4" type="radio" name="last-join" id="last-join4" value="Hawaii">
+                    <label class="form-check-label" for="inlineRadio2">Hawaii</label>
+                </div>
+                <hr>
+                <br>
+
+                <p>How many amendments does the Constitution have?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question5" question-number="5" type="radio" name="amend-const" id="amend-const1" value="35">
+                    <label class="form-check-label" for="inlineRadio1">35</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question5" question-number="5" type="radio" name="amend-const" id="amend-const2" value="27">
+                    <label class="form-check-label" for="inlineRadio2">27</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question5" question-number="5" type="radio" name="amend-const" id="amend-const3" value="16">
+                    <label class="form-check-label" for="inlineRadio1">16</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input question5" question-number="5" type="radio" name="amend-const" id="amend-const4" value="82">
+                    <label class="form-check-label" for="inlineRadio2">82</label>
+                </div>
+                <hr>
+                <br>
+                <button id="submit" type="button" class="btn btn-primary btn-lg">SUBMIT</button>
+                <br>
+                <br>
+                <span class="answers" id="correct"></span>
+                <br>
+                <span class="answers" id="incorrect"></span>
+                <br>
+                <span class="answers" id="incomplete"></span>
+                <br>
+                <br>
+                                
+            </div>
+            <br>
+        </div>
+        <div id="bottom-row" class=row></div>
+
+    </div>
+    </div>
+    <script src="assets/javascript/app.js" async defer></script>
+</body>
+
+</html>
